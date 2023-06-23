@@ -7,9 +7,9 @@ The kamikaze enemies don't feel great
 
 ~~Need time delay upon entering a room before the fight starts~~
 
-Need a momentary delay once enemies spot you until they start shooting
-  * This is particularly an issue when the enemies spawn and instantly fire
-	* Might just need a quick animation before they begin to fight
+~~Need a momentary delay once enemies spot you until they start shooting~~
+  * ~~This is particularly an issue when the enemies spawn and instantly fire~~
+	* ~~Might just need a quick animation before they begin to fight~~
 
 Primary attack is a little too long - you can clear some levels without engaging any enemies
 
