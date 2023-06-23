@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5740002400781328042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5740002400781328043}
+  - component: {fileID: 651517544391637067}
+  - component: {fileID: 1032467070}
+  - component: {fileID: 6955556999893504629}
+  - component: {fileID: 2047443638}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: GameStateManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5740002400781328043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740002400781328042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &651517544391637067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740002400781328042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64e54e9c6b5b2e4fb1cfea031ed2536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoggingLevel: -1
+  GameDesignSettings: {fileID: 11400000, guid: f0cf2d087cb77524fb32062f64478128, type: 2}
+  NextSceneType: 0
+  NextRoomReward: 0
+  AvailableZoneFightChambers: 
+--- !u!114 &1032467070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740002400781328042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32258e73279244ec2b03e711931406ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoggingLevel: -1
+  EnemiesKilled: 0
+  Currency: 0
+  PlayerUpgrades: []
+--- !u!114 &6955556999893504629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740002400781328042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4a093173cb5472eaeb35839c683daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoggingLevel: 0
+  ShopItemData:
+  - {fileID: 11400000, guid: 6bb97d81ba6321b4cb1fbcede1adf56c, type: 2}
+  - {fileID: 11400000, guid: 9e48aa2738b68bd438c81a7caf0227ad, type: 2}
+  - {fileID: 11400000, guid: fe535b64fd1a0e34bace7a5ca72fbe1b, type: 2}
+  ShopItemUiTemplate: {fileID: 3743625115963535172, guid: 82b026196d42f4a59a053086e8917dc2,
+    type: 3}
+  PrimaryOrbPrefab: {fileID: 2752842888426458132, guid: 98d834b4342a2c940a9a7bfcc120b43c,
+    type: 3}
+--- !u!114 &2047443638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740002400781328042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6c9ab7ea4e84532aede8efc6003c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerDeaths: 0
+  HasFinishedZone1: 0
